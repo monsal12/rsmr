@@ -1,0 +1,15 @@
+{
+  "name": "rs-mulia-raya-site",
+  "version": "1.0.0",
+  "description": "Static site served by express (local). For Vercel, deploy `dist` as static files.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step defined'"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
